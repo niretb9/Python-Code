@@ -1,0 +1,110 @@
+1. List Some Mega Projects hosted in Python 
+answer:-  reCAPTCHA, AmazonCE 
+
+2. List Python Libraries Used in Different IT Domains
+answer:-  numpy, pandas, matplotlib .
+
+3. Write Down difference between interpreter and compiler 
+answer:-   Compiler scans the entire block of code at once whereas interpreter scans one statement at a time. 
+
+4. What is Data Structure, why we need one in programs?  
+answer:-  Data structures are the main structures which are used in enhancing computer science algorithms. We need data structures 
+          as they play an important role in enhancing the program data and it can be accessed while working effeciently. 
+
+Create a list data type and store names of your friends in it (at least 5), check out what are methods available in 
+           Names = ['Mahesh', 'Aryaman', 'Rohit', 'Rahul', 'Sahil']
+
+5. list data type, try to figure out their working using help function in python. 
+answer:-  Some of the datatypes are string (str), integer (int), boolean and float
+          str='I am new to Python'
+          a=5;
+
+6. What is difference between ordered data type and unordered data type?  
+answer:-  Ordered dataype guarantees the specified order in which it is initialized. for eg. string, tuple, list.
+          Unordered datatype cannot maintain the specified order when they are run. for eg. sets and dictionaries.
+
+7. Write down types of each value given? ( in python) 
+	100 - integer
+	105.5 - float
+	192.56j - complex	 
+	10+6j  - 
+	‘10’  - tuple
+	‘hello world’ - string
+	[ 10, 20, 50, 100] - list
+	{ ‘name’: ‘sachin’, ‘age’: 24, ‘language’: ‘python’ } - dictionary
+
+8. Explore split, strip, replace, center, title methods of string data type in python 
+answer:-  stay = 'good morning'
+          stay.split()  will give you ['good', 'morning']
+
+          txt = "I like baseball"
+          x = txt.replace("baseball", "cricket")
+          print(x)
+
+          txt = "     baseball     "
+          x = txt.strip()
+          print("of all sports", x, "is my favorite")
+
+          txt = "baseball"
+          x = txt.center(30)       #it will keep the word baseball in the center of 30 spaces.
+          print(x)
+
+          txt = "Welcome to my world"
+          x = txt.title()                   #it will print the following text on the title.
+          print(x)
+
+9. Explore append, pop, remove, sort methods of list data type
+answer:-   list.append(x):- adds an item to the end of the list.
+           list.pop([x]):- removes the item from a specified position in the list.
+           list.remove(x):- removes the first item in the list.
+           list.sort(x):- sorts the items in a specified order.
+
+10. Create 5 real time list to store some useful information in python eg. Language = [ ‘java’, ‘c’, ‘c++’, ‘ruby’] 
+answer:- l1 = ['apple', 'ball', 'cat', 'dog', 'elephant']
+         l2 = ['doctor', 'engineer', 'lawyer', 'accountant']
+         l3 = ['mechanical', 'civil', 'cse']
+         l4 = ['amity', 'LPU']
+         l5 = ['stage', 'audience']
+
+11. What is difference between mutable and immutable data types in python
+answer:-  The mutable datatypes can change the value without adding any new object. for eg. lists and dictionaries
+          whereas immutable datatypes cannot change the values of objects once its created. for eg. integers, boolean, string.
+12. What are identifiers, list rules of identifiers in python 
+answer:-  Identifiers are used to identify certain variables , function, classes etc. the rules are:- 
+          1). It cannot start with a digit
+          2). Keywords cannot be used as identifiers
+          3). The use of special symbols is forbidden
+          4). underscore(_) can be used in the identifiers
+          5). it should start with a Capital letter.
+
+13. What is type casting?
+asnwer:-  Type casting is a method used to change the variables declared in a certain data type into a different data 
+          type to match the operation required to be performed by the block of code statements. for eg. str() , int() , float().
+
+14. What are operators? How many types of operators are there in python? 
+answer:-  operators are certain symbols which perform certain operation on one or more than one operands in an equation. Python 
+          has 7 operators:- 
+          1).Arithmetic operator
+          2).Logical operator
+          3).Relational operator
+          4).Assignment operator
+          5).Membership operator
+          6).Bitwise operator
+          7).Identity operator
+
+16. What do the following expressions evaluate to? 
+
+	a. 'Hello world!'[1] - 'e'
+	b. 'Hello world!'[0:5] - Hello 
+	c. 'Hello world!'[:5]  - 'Hello'
+	d. 'Hello world!'[3:] - 'lo world'
+
+17. What do the following expressions evaluate to? 
+	a. 'Hello'.upper() - UPPER 
+	b. 'Hello'.upper().isupper() - true 
+	c. 'Hello'.upper().lower() - hello 
+
+18. What do the following expressions evaluate to? 
+	a. 'Remember, remember, the fifth of November.'.split()
+
+    answer:- ['Remember,', 'remember,', 'the', 'fifth', 'of', 'November.']
